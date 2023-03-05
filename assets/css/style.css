@@ -1,0 +1,100 @@
+* {
+    background: grey;
+}
+
+body{
+        max-width: 1300px;
+        margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: darkblue;
+}
+
+h1 {
+    padding: 10px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav li {
+    margin-left: 30px;
+    background: darkblue;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s, transform 0.3s;
+    
+}
+.card-2 {
+    background-image: url('card2-image.jpg');
+  }
+  
+  .card-3 {
+    background-image: url('card3-image.jpg');
+  }
+  
+  .card-4 {
+    background-image: url('card4-image.jpg');
+  }
+  
+  .card-5 {
+    background-image: url('card5-image.jpg');
+  }
+
+.large {
+    width: 600px;
+    height: 500px;
+    order: -1;
+    background-image: url('cardlarge-image.jpg')
+}
+
+
+.all-cards h2,
+.all-cards p {
+    background: red
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+    
