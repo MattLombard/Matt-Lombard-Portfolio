@@ -2,22 +2,23 @@
     background: grey;
 }
 
-body{
-        max-width: 1300px;
-        margin: 0 auto;
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+
 }
 
-.main-header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background: darkblue;
+    max-width: 100%;
 }
 
 h1 {
     padding: 10px;
-
 }
 
 nav ul {
@@ -50,7 +51,9 @@ nav a {
     justify-content: center;
     margin-left: 15%;
     margin-right: 15%;
+
 }
+
 
 .card {
     width: 300px;
@@ -61,35 +64,49 @@ nav a {
     padding: 20px;
     box-sizing: border-box;
     transition: box-shadow 0.3s, transform 0.3s;
-    
+
 }
+
 .card-2 {
     background-image: url('card2-image.jpg');
-  }
-  
-  .card-3 {
+}
+
+.card-3 {
     background-image: url('card3-image.jpg');
-  }
-  
-  .card-4 {
+}
+
+.card-4 {
     background-image: url('card4-image.jpg');
-  }
-  
-  .card-5 {
+}
+
+.card-5 {
     background-image: url('card5-image.jpg');
-  }
+}
 
 .large {
     width: 600px;
     height: 500px;
     order: -1;
-    background-image: url('cardlarge-image.jpg')
+    background-image: url('/assets/images/wave photo.jpg')
 }
 
 
-.all-cards h2,
+.all-cards h3,
 .all-cards p {
-    background: red
+    background: red;
+    display: inline-block;
+    margin: 0;
+}
+
+.all-cards h3 {
+    font-size: 24px;
+    /* adjust font size */
+}
+
+.all-cards p {
+    font-size: 16px;
+    /* adjust font size to your preference */
+    /* add some space between h2 and p */
 }
 
 .card:hover {
@@ -97,4 +114,36 @@ nav a {
     transform: scale(1.02);
 }
 
-    
+footer #Contact-Me {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h4 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer li a {
+    color: #666;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: #000;
+}
