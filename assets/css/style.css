@@ -44,14 +44,28 @@ nav a {
     font-weight: bold;
 }
 
+#About-Me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  #About-Me h2 {
+    order: -1;
+  }
+
+
 .all-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 15%;
     margin-right: 15%;
-
-}
+    align-items:flex-start;
+    margin-top: 20px;
+} 
 
 
 .card {
@@ -68,8 +82,8 @@ nav a {
     align-items: end;
     border: solid black;
     border-width: thick;
+    opacity: .8;
 }
-
 .card-2 {
     background-image: url('card2-image.jpg');
 }
@@ -93,26 +107,11 @@ nav a {
     background-image: url('../images/wave\ photo.jpg')
 }
 
-
-.all-cards h3 {
-  
-}
-
-.all-cards h3 {
-    font-size: 24px;
-    background: none;
-    /* adjust font size */
-}
-
-.all-cards p {
-    font-size: 16px;
-    /* adjust font size to your preference */
-    /* add some space between h2 and p */
-}
-
 .card:hover {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     transform: scale(1.02);
+    opacity: 1;
+    cursor: pointer;
 }
 
 footer {
@@ -123,9 +122,11 @@ footer {
     text-align: center;
 }
 
-footer h4 {
+footer h5 {
     display: inline-block;
     margin-right: 20px;
+    font-size: large;
+    font: bolder;
 }
 
 footer ul {
@@ -153,12 +154,19 @@ footer li a:hover {
 @media screen and (max-width: 900px) {
     header {
         background: red;
+        
+    }
+    body {
+        width: 100vw;
     }
 }
 
 @media screen and (max-width: 450px) {
     header {
         background: blue;
+    }
+    body {
+        width: 100vw;
     }
 }
 
