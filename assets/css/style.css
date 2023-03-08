@@ -3,7 +3,7 @@
 body {
     margin: 0 auto;
     max-width: 1200px;
-    width: 100vw;
+    background-color: aquamarine;
 }
 
 header {
@@ -53,6 +53,7 @@ nav a {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    font-size: large;
 }
 
 #About-Me h2 {
@@ -93,7 +94,8 @@ nav a {
     align-items: end;
     border: solid black;
     border-width: thick;
-    opacity: .4;
+    opacity: .7;
+    background-color: none;
 }
 
 .card-2 {
@@ -132,12 +134,13 @@ footer {
     width: 100%;
     padding: 20px;
     text-align: center;
+    font-size: large;
 }
 
 footer h5 {
     display: inline-block;
     margin-right: 20px;
-    font-size: large;
+    font-size: xx-large;
     font: bolder;
 }
 
