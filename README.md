@@ -10,6 +10,9 @@ In the process of building this project, I had the opportunity to learn more adv
 
 Overall, this project not only serves as a great tool to present to potential employers but also highlights my growth and development as a web developer.
 
+![Website Photo](assets/images/_C__Users_ncmat_OneDrive_Desktop_Bootcamp_Modules_module-02_Matt-Lombard-Portfolio_index.html.png)
+
+https://mattlombard.github.io/Matt-Lombard-Portfolio/
 ## Usage
 
 About Me: In the "About Me" section, I introduce myself and provide some background information about my experience as a web developer. This section is meant to give potential employers or clients an idea of my personality and my work style.
