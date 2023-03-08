@@ -1,5 +1,5 @@
 * {
-    background: orange
+    
 }
 
 body {
@@ -82,22 +82,22 @@ nav a {
     align-items: end;
     border: solid black;
     border-width: thick;
-    opacity: .8;
+    opacity: .4;
 }
 .card-2 {
-    background-image: url('card2-image.jpg');
+    background-image: url('../images/Screenshot\ 2023-03-07\ 192410\ \(1\).png');
 }
 
 .card-3 {
-    background-image: url('card3-image.jpg');
+    background-image: url('../images/Screenshot\ 2023-03-07\ 192925.png');
 }
 
 .card-4 {
-    background-image: url('card4-image.jpg');
+    background-image: url('../images/Screenshot\ 2023-03-07\ 193546\ \(1\).png');
 }
 
 .card-5 {
-    background-image: url('card5-image.jpg');
+    background-image: url('../images/Screenshot\ 2023-03-07\ 194924656\ \(1\).png');
 }
 
 .large {
