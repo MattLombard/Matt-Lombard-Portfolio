@@ -1,199 +1,197 @@
 /* Set margin and max-width for body, and set background color to aquamarine */
 body {
-    margin: 0 auto;
-    max-width: 1200px;
-    background-color: aquamarine;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: aquamarine;
 }
 /* Set display, justify-content, align-items, padding, background color and max-width for header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: linear-gradient(to bottom, #333333, #dddddd);
-    max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #333333, #dddddd);
+  max-width: 100%;
 }
 /* Centers the image by setting it to a block and using auto margins */
 img {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 /* Adds padding to an h1 element */
 h1 {
-    padding: 10px;
+  padding: 10px;
 }
 /* Styles the navigation menu by displaying the list items as a flex container, aligning them to the right and adding some margin */
 nav ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
 }
 /* Styles each individual list item by adding margin to the left */
 nav li {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 /* Adds a hover effect to the list item by scaling it up and changing the cursor to a pointer */
 nav li:hover {
-    cursor: pointer;
-    transform: scale(1.2);
+  cursor: pointer;
+  transform: scale(1.2);
 }
 /* Removes the margin from the first list item */
 nav li:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 /* Styles the link within the list item */
 nav a {
-    position: relative;
-    text-decoration: none;
-    color: #000;
-    font-size: 18px;
-    font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
 }
 /* Styles the container for the "About Me" section, using flexbox to center and align items vertically, and setting the font size to large */
 #About-Me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: large;
 }
 /* Styles the heading for the "About Me" section, increasing the font size and setting the font weight to bold */
 #About-Me h2 {
-    order: -1;
-    font-size: xx-large;
-    font-weight: bold;
-  }
+  order: -1;
+  font-size: xx-large;
+  font-weight: bold;
+}
 /* Styles any additional headings in the section, using flexbox to center items vertically and setting the font size and weight to large */
-  h3 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size:xx-large;
-    font-weight: bold;
-  }
+h3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
 /* Styles any links within the section, setting the color to black, removing the underline, and increasing the font size and weight to large and bold, respectively */
-  section a {
-    color: black;
-    text-decoration: none;
-    font-size: large;
-    font: bolder;
-  }
-  /* Styles the container for a set of cards, using flexbox to wrap items and center them horizontally, and setting the margins and alignment */
+section a {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+  font: bolder;
+}
+/* Styles the container for a set of cards, using flexbox to wrap items and center them horizontally, and setting the margins and alignment */
 .all-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    align-items: flex-start;
-    margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  align-items: flex-start;
+  margin-top: 20px;
 }
 /* Styles each individual card, setting its dimensions, border, margins, padding, box-sizing, and opacity, and adding a transition and flexbox properties to align items */
 .card {
-    width: 300px;
-    height: 200px;
-    border: 1px solid black;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    box-sizing: border-box;
-    transition: box-shadow 0.3s, transform 0.3s;
-    display: flex;
-    justify-content: flex-start;
-    align-items: end;
-    border: solid black;
-    border-width: thick;
-    opacity: .7;
-    background-color: none;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s, transform 0.3s;
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  border: solid black;
+  border-width: thick;
+  opacity: 0.7;
+  background-color: none;
 }
 /* Sets the background images for the cards */
 .card-2 {
-    background-image: url('../images/Screenshot\ 2023-03-07\ 192410\ \(1\).png');
+  background-image: url('../images/Screenshot\ 2023-03-07\ 192410\ \(1\).png');
 }
 
 .card-3 {
-    background-image: url('../images/Screenshot\ 2023-03-07\ 192925.png');
+  background-image: url('../images/Screenshot\ 2023-03-07\ 192925.png');
 }
 
 .card-4 {
-    background-image: url('../images/Screenshot\ 2023-03-07\ 193546\ \(1\).png');
+  background-image: url('../images/Screenshot\ 2023-03-07\ 193546\ \(1\).png');
 }
 
 .card-5 {
-    background-image: url('../images/Screenshot\ 2023-03-07\ 194924656\ \(1\).png');
+  background-image: url('../images/Screenshot\ 2023-03-07\ 194924656\ \(1\).png');
 }
 /* This section of code defines a CSS class called "large" that sets the width, height, order, and background image of an element. */
 .large {
-    width: 600px;
-    height: 500px;
-    order: -1;
-    background-image: url('../images/wave\ photo.jpg')
+  width: 600px;
+  height: 500px;
+  order: -1;
+  background-image: url('../images/Screenshot\ 2023-03-23\ 200504\ \(1\).png');
 }
 /* This section of code defines a hover effect for elements with a class of "card". When the element is hovered over, it will have a box shadow, increased size, and higher opacity, as well as a cursor that indicates it can be clicked. */
 .card:hover {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-    transform: scale(1.02);
-    opacity: 1;
-    cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+  opacity: 1;
+  cursor: pointer;
 }
 /* This section of code defines the styling for a footer element. The width is set to 100%, padding is added, and the text is centered with a large font size. */
 footer {
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    font-size: large;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
 }
 /* This section of code defines the styling for a heading within the footer. The display is set to inline-block, there is a margin to the right, and the font size is set to xx-large with a bold font weight. */
 footer h5 {
-    display: inline-block;
-    margin-right: 20px;
-    font-size: xx-large;
-    font: bolder;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: xx-large;
+  font: bolder;
 }
 /* This section of code defines the styling for an unordered list within the footer. The display is set to inline-block, there is no margin or padding, and the list style is removed. */
 footer ul {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 /* This section of code defines the styling for list items within the unordered list. The display is set to inline-block, there is a margin to the right, and text decoration is added to underline the text. */
 footer li {
-    display: inline-block;
-    margin-right: 20px;
-    text-decoration: underline;
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: underline;
 }
 /* This section of code defines the styling for links within list items. The color is set to black by default. */
 footer li a {
-    color: black
+  color: black;
 }
 /* This section of code defines the hover effect for links within list items. When the link is hovered over, the color will change to #000 (black). */
 footer li a:hover {
-    color: #000;
+  color: #000;
 }
 
 /* This section of code sets the styling for the header and body elements when the screen width is at most 900 pixels. The header background color is set to red, and the body width is set to 100vw (100% of viewport width). */
 
 @media screen and (max-width: 900px) {
-    header {
-        background: red;
+  header {
+    background: red;
+  }
 
-    }
-
-    body {
-        width: 100vw;
-    }
+  body {
+    width: 100vw;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    header {
-        background: blue;
-    }
+  header {
+    background: blue;
+  }
 
-    body {
-        width: 100vw;
-    }
+  body {
+    width: 100vw;
+  }
 }
-
